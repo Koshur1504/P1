@@ -20,7 +20,7 @@ export default function TodoForm() {
           value={form}
           onChange={(e) => setForm(e.target.value)}
         />
-        <button onClick={(e) => handleAdd(e)}>Add todo</button>
+        <button id='formbtn' onClick={(e) => handleAdd(e)}>Add todo</button>
       </form>
     </>
   );
